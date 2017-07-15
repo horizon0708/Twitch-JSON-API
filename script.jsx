@@ -71,7 +71,7 @@ class Main extends React.Component {
     }
 
     showAll() {
-        this.setState({showing: streamers});
+        this.setState({showing: this.state.streamers});
     }
 
     render() {
